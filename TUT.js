@@ -49,9 +49,9 @@ function preload() {
   backgroundImgs[3] = loadImage('Crystal_Peak.webp'); 
   stingImg = loadImage('STING.png');
   
-  bgMusic = loadSound('WhitePalace.mp3');
-  moveSound = loadSound('move.mp3');
-  eatSound = loadSound('eat.mp3');
+  bgMusic = loadSound('WhitePalace.MP3');
+  moveSound = loadSound('move.MP3');
+  eatSound = loadSound('eat.MP3');
 }
 
 function setup() {
@@ -330,4 +330,5 @@ function keyReleased() {
     DrawRec();
     isDragging = false;
   }
+
 }

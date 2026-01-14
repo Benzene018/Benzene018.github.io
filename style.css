@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f7ff 0%, #e6f0fa 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "微软雅黑", "宋体", Arial, sans-serif;
+    overflow: hidden;
+    cursor: default;
+}
+
+.game-title {
+    font-size: 36px;
+    color: #29496b;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.game-desc {
+    font-size: 16px;
+    color: #57779a;
+    margin-bottom: 25px;
+}
+
+
+canvas {
+    border-radius: 20px ;
+    box-shadow: 0 8px 35px rgba(41, 73, 107, 0.18);
+    border: 3px solid #ffffff ;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+canvas:hover {
+    box-shadow: 0 12px 45px rgba(41, 73, 107, 0.25) !important;
+    transform: translateY(-3px);
+}

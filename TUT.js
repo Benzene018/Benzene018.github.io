@@ -224,7 +224,7 @@ function draw() {
   // 得分显示
   fill(0);        
   textSize(15);   
-  text(`小虫得分：${score}  图片得分：${rectScore}  目标得分：${win}`, width/2, height - 20);
+  text(`小虫得分：${score}  地刺得分：${rectScore}  目标得分：${win}`, width/2, height - 20);
   text('方向键移小虫,WASD使用地刺', width/2, height - 45);
   textAlign(CENTER, TOP); 
   let minutes = floor(remainingTime / 60);
@@ -332,3 +332,4 @@ function keyReleased() {
   }
 
 }
+
